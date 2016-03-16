@@ -1,0 +1,23 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: Wilkommen/Welcome
+email: sksulli2@illinois.edu
+description: > # this means to ignore newlines until "baseurl:"
+  Wilkommen. Ich heiße Stephen Sullivan.
+  Ich bin ein Musikproduzent und ein
+  Computerwissenschaftler 
+  auf den University of Illinois at Urbana-Champaign und universität ulm.
+  Danke danke für besuch!
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://localhost:4000" # the base hostname & protocol for your site
+github_username:  sksullivan
+
+# Build settings
+markdown: kramdown
+highlighter: rouge linenos
