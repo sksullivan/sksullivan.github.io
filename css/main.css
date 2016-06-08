@@ -1,0 +1,89 @@
+@font-face {
+    font-family: 'pd-r';
+    src: url('../font/Playfair_Display/PlayfairDisplay-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'pd-i';
+    src: url('../font/Playfair_Display/PlayfairDisplay-Italic.ttf');
+}
+
+
+body {
+    margin: 60px auto;
+    width: 70%;
+}
+nav ul, footer ul {
+    font-family:'pd-r', 'Times', 'Serif';
+    font-size: 0.75em;
+    padding: 0;
+    list-style: none;
+    font-weight: bold;
+}
+nav ul li, footer ul li {
+    display: inline;
+    margin-right: 20px;
+}
+a.index {
+    text-decoration: none;
+    color: #999;
+}
+a.index:hover {
+    text-decoration: underline;
+}
+em {
+    color: #777;
+}
+h1 {
+    font-size: 3em;
+    font-family:'pd-i', 'Times', 'Serif';
+    letter-spacing: 2px;
+}
+p {
+    font-family:'pd-r', 'Times', 'Serif';
+    font-size: 1.5em;
+    line-height: 1.4em;
+    color: #333;
+}
+footer {
+    border-top: 1px solid #d5d5d5;
+    font-size: .8em;
+}
+
+ul.posts {
+    margin: 20px auto 40px;
+    font-size: 1.5em;
+}
+
+ul.posts li {
+    list-style: none;
+}
+
+#pageNotFound {
+    display: block;
+    width:auto;
+    height:auto;
+}
+
+.footnotes p {
+    color: #777;
+    font-size: 1.25em;
+}
+
+.footnote {
+    text-decoration: none;
+    color: #999;
+}
+
+.footnote:hover {
+    text-decoration: underline;
+}
+
+.reversefootnote {
+    text-decoration: none;
+    color: #999;
+}
+
+.reversefootnote:hover {
+    text-decoration: underline;
+}
